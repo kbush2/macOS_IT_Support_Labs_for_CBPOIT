@@ -1,3 +1,10 @@
+<!-- BADGES -->
+![macOS](https://img.shields.io/badge/macOS-Sonoma%2014.5-lightgrey?logo=apple&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen)
+![Focus](https://img.shields.io/badge/Focus-CBP%20OIT%20Prep-blue)
+![License](https://img.shields.io/badge/License-Open%20Educational-blueviolet)
+![GitHub](https://img.shields.io/badge/GitHub-kbush2-lightgrey?logo=github)
+
 # 🍏 macOS IT Support & Security Labs – CBP OIT Prep
 
 **Author:** [Kamal Bush](https://github.com/kbush2)  
