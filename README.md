@@ -1,47 +1,67 @@
-# macOS IT Support & Security Labs (CBP OIT Prep)
+# 🍏 macOS IT Support & Security Labs – CBP OIT Prep
 
-**Author:** Your Name (replace)  
-**Date Initialized:** 2025-10-30  
-**Target Role:** DHS/CBP OIT – IT Support / Endpoint Admin / Analyst  
-**Platform:** macOS (Apple laptop). *(Note: iOS is for iPhone/iPad; on a Mac you’re using **macOS**.)*
+**Author:** [Kamal Bush](https://github.com/kbush2)  
+**Focus Area:** macOS Administration · Endpoint Hardening · Automation · Incident Response  
+**Goal:** Hands-on, evidence-based portfolio aligned with **DHS CBP OIT IT Support / Cyber Analyst** competencies.
 
-## What’s here
-Hands-on labs aligned to enterprise macOS support & security competencies you’ll likely use in a federal environment: baselining, user/device management, logging & telemetry, endpoint protections, scripting/automation, and incident response triage.
+---
 
-> Tip: After completing each lab, push commits with clear messages and include screenshots in the `images/` subfolder of the lab.
+## 🧩 Overview
+Practical labs covering:
+- macOS system auditing and inventory  
+- Secure baseline configuration (FileVault, Firewall, Gatekeeper)  
+- Logging & telemetry (`log`, `auditd`, `osquery`)  
+- Built-in endpoint protections (SIP, XProtect)  
+- zsh automation (JSON + HTML output)  
+- Configuration Profiles (MDM simulation)  
+- Local incident response triage  
 
-## Labs
-1. **01-System-Audit-Inventory** – Collect hardware/software inventory, create a clean audit report.  
-2. **02-Homebrew-CLI-Toolkit** – Install developer tools and build a standardized CLI toolkit.  
-3. **03-User-Management-&-Secure-Baseline** – Enforce FileVault, firewall, Gatekeeper; password policy basics.  
-4. **04-Logging-&-Telemetry** – Unified logging, `auditd`, and `osquery` intro; export artifacts.  
-5. **05-Built-in-Endpoint-Security** – Validate XProtect/Gatekeeper/SIP status; test quarantine flow safely.  
-6. **06-zsh-Scripting-Automations** – Write a `mac_health_check.sh` that outputs a JSON & HTML report.  
-7. **07-Configuration-Profiles** – Create/apply a `.mobileconfig` with `profiles` CLI to simulate MDM.  
-8. **08-Incident-Response-Mini** – Triage package: running processes, persistence, network, quarantine, logs.
+Each lab folder contains a `README.md`, `artifacts/`, and `images/` directory with step-by-step instructions, screenshots, and results.
 
-## How to use
-- Complete labs in order.  
-- Replace `YOUR_SCREENSHOT.png` placeholders with your own.  
-- Commit early and often with descriptive messages.  
-- Keep sensitive data out of screenshots (usernames, IPs, serials if needed redact).
+---
 
-## Repo structure
-```
-macOS_IT_Support_Labs_for_CBPOIT/
-  01-System-Audit-Inventory/
-  02-Homebrew-CLI-Toolkit/
-  03-User-Management-&-Secure-Baseline/
-  04-Logging-&-Telemetry/
-  05-Built-in-Endpoint-Security/
-  06-zsh-Scripting-Automations/
-  07-Configuration-Profiles/
-  08-Incident-Response-Mini/
-  README.md
-```
+## 🧱 Lab Index
 
-## Evidence Rubric (what recruiters/managers look for)
-- **Reproducibility:** Steps, commands, and expected outputs.  
-- **Artifacts:** Reports, logs, scripts, configs committed to repo.  
-- **Screenshots:** Key UI/CLI proof with captions.  
-- **Reflection:** “What I learned,” blockers, and next steps.  
+| # | Lab | Focus Area | Evidence |
+|:-:|:----|:------------|:---------|
+| 1 | System Audit & Inventory | Hardware/software audit | `system_profile.json`, `screenshots` |
+| 2 | Homebrew & CLI Toolkit | Admin tool setup | `brew_list.txt`, `screenshots` |
+| 3 | User Mgmt & Secure Baseline | FileVault, Firewall | `baseline.md` |
+| 4 | Logging & Telemetry | Unified logs + auditd | `audit_sample.txt` |
+| 5 | Built-in Endpoint Security | XProtect · SIP · Quarantine | `protection_status.md` |
+| 6 | zsh Automations | Health-check script (JSON/HTML) | `mac_health_check.sh` |
+| 7 | Configuration Profiles | MDM simulation | `example_baseline.mobileconfig` |
+| 8 | Incident Response Mini | Local triage bundle | `triage_bundle.zip` |
+
+---
+
+## 📸 Screenshots Preview
+*(Add your own for each lab.)*
+
+| Example | Description |
+|----------|--------------|
+| ![Lab 1 – System Audit](01-System-Audit-Inventory/images/step01_sw_vers_output.png) | macOS version check |
+| ![Lab 1 – Audit Summary](01-System-Audit-Inventory/images/final_audit_summary_view.png) | Final audit report |
+| ![Lab 2 – Brew Doctor](02-Homebrew-CLI-Toolkit/images/step01_brew_doctor.png) | Verified Homebrew setup |
+| ![Lab 2 – Tool Versions](02-Homebrew-CLI-Toolkit/images/step02_tool_versions.png) | CLI tool verification |
+
+---
+
+## 💼 About the Author
+U.S. Army Veteran · IT & Cybersecurity Professional · Graduate Student in International Development & Service  
+
+> *"I build hands-on, evidence-driven labs to bridge military discipline with modern IT and security operations."*
+
+Connect → [LinkedIn](https://www.linkedin.com/in/kamalbush) | [GitHub @kbush2](https://github.com/kbush2)
+
+---
+
+## 🧠 Next Steps
+- Continue with Labs 3 and 4 (Secure Baselines + Logging)  
+- Add zsh automation outputs to GitHub Pages  
+- Expand to Jamf or Intune integration tests later  
+
+---
+
+⭐ **If this repo helps you, give it a star!**
+
