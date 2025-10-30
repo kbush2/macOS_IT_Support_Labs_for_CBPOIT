@@ -1,0 +1,33 @@
+{
+  "SPHardwareDataType" : [
+    {
+      "_name" : "hardware_overview",
+      "activation_lock_status" : "activation_lock_enabled",
+      "boot_rom_version" : "11881.140.96",
+      "chip_type" : "Apple M2",
+      "machine_model" : "Mac14,2",
+      "machine_name" : "MacBook Air",
+      "model_number" : "MLY43LL/A",
+      "number_processors" : "proc 8:4:4",
+      "os_loader_version" : "11881.140.96",
+      "physical_memory" : "8 GB",
+      "platform_UUID" : "1B347A6A-F08E-55BE-92AE-B4A76FBAAABA",
+      "provisioning_UDID" : "00008112-000658223E08C01E",
+      "serial_number" : "H721F99F9C"
+    }
+  ],
+  "SPSoftwareDataType" : [
+    {
+      "_name" : "os_overview",
+      "boot_mode" : "normal_boot",
+      "boot_volume" : "Macintosh HD",
+      "kernel_version" : "Darwin 24.6.0",
+      "local_host_name" : "Kamal’s MacBook Air",
+      "os_version" : "macOS 15.6.1 (24G90)",
+      "secure_vm" : "secure_vm_enabled",
+      "system_integrity" : "integrity_enabled",
+      "uptime" : "up 0:19:51:10",
+      "user_name" : "Kamal Bush (kamalbush)"
+    }
+  ]
+}
