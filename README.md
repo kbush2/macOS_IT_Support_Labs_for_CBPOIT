@@ -5,6 +5,7 @@
 ![License](https://img.shields.io/badge/License-Open%20Educational-blueviolet)
 ![GitHub](https://img.shields.io/badge/GitHub-kbush2-lightgrey?logo=github)
 
+
 # 🍏 macOS IT Support & Security Labs – CBP OIT Prep
 
 **Author:** [Kamal Bush](https://github.com/kbush2)  
@@ -36,7 +37,7 @@ Each lab folder contains a `README.md`, `artifacts/`, and `images/` directory wi
 | 3 | User Mgmt & Secure Baseline | FileVault, Firewall | `baseline.md` |
 | 4 | Logging & Telemetry | Unified logs + auditd | `audit_sample.txt` |
 | 5 | Built-in Endpoint Security | XProtect · SIP · Quarantine | `protection_status.md` |
-| 6 | zsh Automations | Health-check script (JSON/HTML) | `mac_health_check.sh` |
+| 6 | Excel Helpdesk Dashboard & KPIs | Ticket analytics & reporting | [View](Lab6_Excel_Helpdesk_Dashboard/Artifacts/README.md) |
 | 7 | Configuration Profiles | MDM simulation | `example_baseline.mobileconfig` |
 | 8 | Incident Response Mini | Local triage bundle | `triage_bundle.zip` |
 
